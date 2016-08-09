@@ -1,0 +1,53 @@
+@import url("comm.css");
+body {
+	background:url(../images/list_02.gif) repeat-x top;
+	margin:0
+}
+/*��ҳ���˳���ť*/
+.index_bot , .tuichu_bot , .pwd_bot {
+	margin-right:5px;
+	float:right;
+	text-align:center;
+}
+.index_bot a,.tuichu_bot a,.pwd_bot a {	background:url(../images/mebg.png); width:37px; height:37px; text-decoration:none;
+	display:block;
+}
+
+.index_bot a:hover,.tuichu_bot a:hover,.pwd_bot a:hover  { background-position:37px 0
+
+}
+.index_bot a div,.tuichu_bot a  div,.pwd_bot a  div{color:#FFF}
+.index_bot a div,.tuichu_bot a  div,.pwd_bot a  div{ padding-top:5px}
+
+ 
+/*ϵͳ��*/
+.bannerword {
+}
+/*��ɫ��*/
+.role {
+	padding-right:10px;
+	color:#FFF
+}
+.toptitle {
+	background:url(acc_19.gif) repeat-x top;
+	padding:3px;
+}
+.toptitle div {
+	float:left;
+	background:url(acc_17.gif) no-repeat right;
+	padding:0 10px;
+}
+.toptitle div a:link, .toptitle div a:visited, .toptitle div a:hover {
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold
+}
+
+.bottomtime{  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5a9de6,endColorstr=#4780df,GradientType=0);
+ padding:0 10px; text-align:center; color:#FFFFFF; position:absolute; bottom:0; left:0; line-height:20px; font-weight:bold;  right:0}
+ 
+.bottomtime1{float:right;font-weight:lighter; position:absolute;top:0;right:10px}
+ 
+#divmenu a,#divmenu a:link,#divmenu a:visited,#divmenu a:hover{  line-height:33px; color:#1e63cd; font-size:12px;font-weight:bold;-wenkit-mast-image:-webkit-gradient(liner,left top,left bottom,from(rgba(0,0,0,1)),to (rgba(0,0,0,0)));}
+ 
+  

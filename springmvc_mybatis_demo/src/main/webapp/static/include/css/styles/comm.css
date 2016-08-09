@@ -1,0 +1,70 @@
+* { 
+	scrollbar-3dlight-color:#6082af; /*- 鏈�宸�-*/
+	scrollbar-highlight-color:#6082af; /*- 宸︿簩 -*/
+	scrollbar-face-color:#6082af; /*- 闈㈠瓙 -*/
+	scrollbar-arrow-color:#fff; /*- 绠ご -*/
+	scrollbar-shadow-color:#6082af; /*- 鍙充簩 -*/
+	scrollbar-darkshadow-color:#6082af; /*- 鍙充竴 -*/
+	scrollbar-base-color:#6082af; /*- 鍩鸿壊 -*/
+	scrollbar-track-color:#f0f0f0;/*- 婊戦亾 -*/
+}
+form {
+	margin:0;
+	padding:0
+}
+a:link {
+	color: #0e38a5;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0e38a5;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0e38a5;
+}
+a:active {
+	text-decoration: none;
+	color: #0e38a5;
+}
+body, td  {
+	font-size: 12px;color:#202020;
+	line-height:180%
+}
+body {
+	margin:0;
+	padding:0
+}
+p {
+	padding:0;
+	margin:0;
+	line-height:180%
+}
+a {
+	cursor:pointer
+}
+img {
+	border:0
+}
+table {
+	border-collapse:collapse
+}
+p {
+	padding:0;
+	margin:0
+}
+ul, li, div {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+select, input, textarea {
+	border:#ccc 1px solid; border-radius:3px;
+}
+input:focus,select:focus,textarea:focus{border:#799fd8 solid 1px}
+.red{ color:#F00}
+ 
+input[type="radio"]{border:none}
+
+ 
