@@ -68,6 +68,6 @@
     </security:authentication-manager>  
   	
   	
-    <bean id="userDetailsService" class="org.andy.work.service.impl.UserDetailsServiceImpl" />  
+    <bean id="userDetailsService" class="org.logistics.service.impl.UserDetailsServiceImpl" />  
       
 </beans>

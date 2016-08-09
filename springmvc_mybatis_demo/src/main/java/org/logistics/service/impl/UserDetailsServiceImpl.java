@@ -3,10 +3,6 @@ package org.logistics.service.impl;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.andy.work.dao.UserDao;
-import org.andy.work.entity.AcctAuthority;
-import org.andy.work.entity.AcctRole;
-import org.andy.work.entity.AcctUser;
 import org.apache.log4j.Logger;
 import org.logistics.dao.UserInfoMapper;
 import org.logistics.model.UserInfo;
@@ -26,8 +22,13 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	// 注入查询User的dao层  
     @Autowired  
     private UserInfoMapper userInfoMapper;
+
+	public UserDetails loadUserByUsername(String arg0) throws UsernameNotFoundException {
+		
+		return null;
+	}
 	
-	public UserDetails loadUserByUsername(String nickName) throws UsernameNotFoundException {
+	/*public UserDetails loadUserByUsername(String nickName) throws UsernameNotFoundException {
 		
 		LOGGER.info("认证用户：" + nickName);
 		
@@ -43,13 +44,13 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 				,true,true,true,true, authorities);
 		
 		return userDetails;
-	}
+	}*/
 	
 	/**
 	 * 获得用户所有角色的权限
 	 * @return
 	 */
-	private Set<GrantedAuthority> getAuthority(AcctUser acctUser){
+	/*private Set<GrantedAuthority> getAuthority(AcctUser acctUser){
 		Set<GrantedAuthority> authoritySet = new HashSet<GrantedAuthority>();
 		
 		//默认所以用户有"浏览用户"的权利  
@@ -75,6 +76,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 		
 		return authoritySet;
 				
-	}
+	}*/
 
 }
